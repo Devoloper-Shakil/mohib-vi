@@ -159,7 +159,7 @@ ul li:hover ul {
 }
 /* top-menu */
 .top-menu{
-  background:black;
+  background:green;
   color:white;
   display:flex;
 }
@@ -257,4 +257,130 @@ ul li:hover ul {
     border-radius: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+/* footer style */
+.footer{
+  background: green;
+    height: 420px;
+    padding: 20px;
+    margin: auto;
+   
+}
+.footer-content{
+  display: flex;
+}
+.locations{
+  width: 32%;
+  color: white;
+  padding-left: 30px;
+}
+.locations h4{
+  font-size: 26px;
+  margin-top: 42px;
+}
+.locations i{
+  background: #00000078;
+    padding: 11px;
+    border-radius: 59%;
+    margin-right: 10px;
+}
+.locations span{
+  margin-left: 51px;
+}
+.footer-about{
+  width: 30%;
+  color: white;
+  padding: 11px;
+
+
+}
+.footer-about h2{
+  margin-top: 42px;
+  font-size: 30px;
+}
+.footer-about p{
+  margin-top: 26px;
+    font-size: 20px;
+}
+.footer-icon{
+  margin-top: 23px;
+}
+.footer-icon i{
+  font-size: 30px;
+  color:white;
+  padding: 3px;
+
+}
+
+.form__group {
+  position: relative;
+    margin-top: 90px;
+    width: 25%;
+    padding: 11px;
+    margin: auto;
+}
+.field  .footer-btn{
+  background: #00ff00c2;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 14px;
+  padding: 11px 31px;
+  font-size: 20px;
+}
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: white;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+.Copyright{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
 }
