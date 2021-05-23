@@ -455,7 +455,7 @@ ul li:hover ul {
   grid-template-columns: (2,1fr);
 }
 ul {
-  width: 100%;
+  width: 74%;
   position: absolute;
 }
   }
