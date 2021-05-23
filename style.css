@@ -451,7 +451,7 @@ ul li:hover ul {
   padding: 0px;
 }
 .footer {
-  height: 719px;
+  height: 729px;
 }
 .footer-content{
   width: 100%;
@@ -489,14 +489,17 @@ grid-template-columns: repeat(2,1fr);
 ul {
   width: 100%;
   position: absolute;
+  height: 300px;
 }
 ul li ul {
-  position: absolute;
-  left: 337px;
-  top: 100%;
-  width: 227px;
-  background: #0af30a;
-  height: 300px;
+ 
+    position: absolute;
+    left: 253px;
+    top: 100%;
+    width: 217px;
+    background: #0af30a;
+    height: 300px;
+
 }
 nav ul li {
   display: block;
