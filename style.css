@@ -424,7 +424,7 @@ ul li:hover ul {
    }
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 360px){
     .contract {
       display: block;
       padding: 3px;
