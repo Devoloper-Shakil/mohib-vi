@@ -15,7 +15,6 @@ body{
 nav{
   background:rgb(255, 255, 255);
  
-  box-shadow: 0px 0px 12px -4px;
   height: 80px;
   width: 100%;
 }
@@ -39,7 +38,6 @@ nav img.logo{
   
   line-height: 80px;
   padding: 0 103px;
-  /* font-weight: bold; */
   width: 31%;
 }
 nav ul{
@@ -127,9 +125,10 @@ ul li a i{
 }
 /* top-menu */
 .top-menu{
-  background:green;
-  color:white;
+  background:white;
+  color:black;
   display:flex;
+  border-bottom: 2px solid black;
 }
 .contract{
   display:flex;
@@ -150,7 +149,7 @@ ul li a i{
 .social-icon i{
   font-size: 26px;
     margin-left: 5px;
-    color: white;
+    color: green;
 }
 .gmail i{
   margin-right: 5px;
