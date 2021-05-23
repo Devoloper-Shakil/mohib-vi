@@ -490,4 +490,21 @@ ul {
   width: 100%;
   position: absolute;
 }
+ul li ul {
+  position: absolute;
+  left: 337px;
+  top: 100%;
+  width: 227px;
+  background: #0af30a;
+  height: 300px;
+}
+nav ul li {
+  display: block;
+  margin: 38px 0;
+  line-height: 0;
+}
+nav ul li :hover ul li a{
+  background: gray;
+
+}
   }
