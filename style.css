@@ -467,13 +467,13 @@ grid-template-columns: repeat(2,1fr);
   padding-left: 10px;
 }
 .locations h4 {
-  font-size: 21px;
+  font-size: 17px;
   margin-top: 45px;
 }
 .footer-about h2 {
   margin-top: 42px;
-  font-size: 21px;
-  margin-left: 9px;
+  font-size: 19px;
+  margin-left: 9px;;
 }
 .form__group {
   position: relative;
@@ -481,6 +481,10 @@ grid-template-columns: repeat(2,1fr);
   width: 100%;
   padding: 8px;
   margin: 40px;
+}
+.footer-about p {
+  margin-top: 26px;
+  font-size: 17px;
 }
 ul {
   width: 100%;
