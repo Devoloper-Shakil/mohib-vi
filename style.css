@@ -450,12 +450,40 @@ ul li:hover ul {
   display: block;
   padding: 0px;
 }
-.footer{
-  display:grid;
-  grid-template-columns: (2,1fr);
+.footer {
+  height: 719px;
+}
+.footer-content{
+  width: 100%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.locations {
+  width: 100%;
+  padding-left: 10px;
+}
+.footer-about{
+  width: 100%;
+  padding-left: 10px;
+}
+.locations h4 {
+  font-size: 21px;
+  margin-top: 45px;
+}
+.footer-about h2 {
+  margin-top: 42px;
+  font-size: 24px;
+  margin-left: 9px;
+}
+.form__group {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  padding: 8px;
+  margin: 40px;
 }
 ul {
-  width: 74%;
+  width: 100%;
   position: absolute;
 }
   }
