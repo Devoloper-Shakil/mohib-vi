@@ -22,6 +22,7 @@ nav{
 .search{
   padding: 6px;
   margin-right: -32px;
+  padding-left: 69px;
   font-size: 14px;
   border: 2px solid green;
 }
@@ -52,8 +53,8 @@ nav ul li{
 }
 nav ul li a{
   color: black;
-  font-size: 17px;
-  padding: 7px 13px;
+  font-size: 16px;
+  padding: 7px 10px;
   border-radius: 3px;
   text-transform: uppercase;
 }
@@ -117,9 +118,9 @@ ul li a i{
   font-size:25px;
 }
 .dopdown-button{
-  padding: 8px 40px;
+  padding: 8px 21px;
     background: green;
-    font-size: 21px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -501,7 +502,7 @@ grid-template-columns: repeat(2,1fr);
 ul {
   width: 100%;
   position: absolute;
-  height: 300px;
+  height: 500px;
 }
 ul li ul {
  
